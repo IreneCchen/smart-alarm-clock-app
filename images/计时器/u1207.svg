@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="55px" height="55px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="1501.5" y1="280" x2="1501.5" y2="325" id="LinearGradient24">
+      <stop id="Stop25" stop-color="#ffffff" offset="0" />
+      <stop id="Stop26" stop-color="#000000" offset="1" />
+    </linearGradient>
+    <filter x="1479px" y="280px" width="55px" height="55px" filterUnits="userSpaceOnUse" id="filter27">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget28">
+      <path d="M 1501.5 280  C 1514.1 280  1524 289.9  1524 302.5  C 1524 315.1  1514.1 325  1501.5 325  C 1488.9 325  1479 315.1  1479 302.5  C 1479 289.9  1488.9 280  1501.5 280  Z " fill-rule="nonzero" fill="#ff9900" stroke="none" />
+      <path d="M 1501.5 280.5  C 1513.82 280.5  1523.5 290.18  1523.5 302.5  C 1523.5 314.82  1513.82 324.5  1501.5 324.5  C 1489.18 324.5  1479.5 314.82  1479.5 302.5  C 1479.5 290.18  1489.18 280.5  1501.5 280.5  Z " stroke-width="1" stroke="url(#LinearGradient24)" fill="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1479 -280 )">
+    <use xlink:href="#widget28" filter="url(#filter27)" />
+    <use xlink:href="#widget28" />
+  </g>
+</svg>
